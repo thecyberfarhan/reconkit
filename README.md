@@ -1,5 +1,9 @@
 # reconkit
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Stdlib only](https://img.shields.io/badge/dependencies-stdlib%20only-B4232C?style=flat-square)
+![License: MIT](https://img.shields.io/badge/license-MIT-444?style=flat-square)
+
 A small recon automation tool: port scan, HTTP/security-header probing and optional subdomain brute force, with a clean Markdown or JSON report. Standard library only — no dependencies to install.
 
 > **Scope guard built in.** Scanning a public (non-private) address requires `--authorized`, which you should only pass if you have written permission to test that target. Only test systems you own or are authorized to test.
